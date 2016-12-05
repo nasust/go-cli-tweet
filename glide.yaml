@@ -1,0 +1,12 @@
+package: go-cli-tweet
+homepage: https://github.com/nasust/go-cli-tweet
+license: MIT
+owners:
+- name: nasust
+  email: nasust@gmail.com
+  homepage: http://nasust.hatenablog.com
+import:
+- package: github.com/ChimeraCoder/anaconda
+- package: github.com/urfave/cli
+  version: ^1.19
+- package: github.com/ChimeraCoder/tokenbucket
